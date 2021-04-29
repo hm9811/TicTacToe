@@ -21,25 +21,28 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/button9"
+                android:id="@+id/button_00"
                 android:layout_width="120dp"
                 android:layout_height="120dp"
                 android:insetLeft="5dp"
-                android:insetRight="5dp" />
+                android:insetRight="5dp"
+                android:textSize="36sp" />
 
             <Button
-                android:id="@+id/button8"
+                android:id="@+id/button_01"
                 android:layout_width="120dp"
                 android:layout_height="120dp"
                 android:insetLeft="5dp"
-                android:insetRight="5dp" />
+                android:insetRight="5dp"
+                android:textSize="36sp" />
 
             <Button
-                android:id="@+id/button7"
+                android:id="@+id/button_02"
                 android:layout_width="120dp"
                 android:layout_height="120dp"
                 android:insetLeft="5dp"
-                android:insetRight="5dp" />
+                android:insetRight="5dp"
+                android:textSize="36sp" />
         </TableRow>
 
         <TableRow
@@ -47,25 +50,28 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/button6"
+                android:id="@+id/button_10"
                 android:layout_width="120dp"
                 android:layout_height="120dp"
                 android:insetLeft="5dp"
-                android:insetRight="5dp" />
+                android:insetRight="5dp"
+                android:textSize="36sp" />
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/button_11"
                 android:layout_width="120dp"
                 android:layout_height="120dp"
                 android:insetLeft="5dp"
-                android:insetRight="5dp" />
+                android:insetRight="5dp"
+                android:textSize="36sp" />
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/button_12"
                 android:layout_width="120dp"
                 android:layout_height="120dp"
                 android:insetLeft="5dp"
-                android:insetRight="5dp" />
+                android:insetRight="5dp"
+                android:textSize="36sp" />
         </TableRow>
 
         <TableRow
@@ -73,33 +79,36 @@
             android:layout_height="213dp">
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/button_20"
                 android:layout_width="120dp"
                 android:layout_height="120dp"
                 android:insetLeft="5dp"
-                android:insetRight="5dp" />
+                android:insetRight="5dp"
+                android:textSize="36sp" />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/button_21"
                 android:layout_width="120dp"
                 android:layout_height="120dp"
                 android:insetLeft="5dp"
-                android:insetRight="5dp" />
+                android:insetRight="5dp"
+                android:textSize="36sp" />
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/button_22"
                 android:layout_width="120dp"
                 android:layout_height="120dp"
                 android:insetLeft="5dp"
-                android:insetRight="5dp" />
+                android:insetRight="5dp"
+                android:textSize="36sp" />
         </TableRow>
     </TableLayout>
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textViewTurn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Game Start!"
+        android:text="Player X's turn"
         android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -109,7 +118,7 @@
         app:layout_constraintVertical_bias="0.139" />
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/button_NewGame"
         android:layout_width="369dp"
         android:layout_height="87dp"
         android:layout_marginTop="4dp"
@@ -118,6 +127,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewTurn" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
